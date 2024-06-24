@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Web Site</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&famify=Rubik:wght@300;400;500;600&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="index.html"><img src="RedStore_Img/images/logo.png" alt="logo"></a>
+                </div>
+                <nav>
+                    <ul id="togglemenu">
+                        <li><a href="index.html"><i class="ri-home-heart-fill">Home</i></a></li>
+                        <li><a href="product.html">Products</a></li>
+                        <li><a href="#">Abouts</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="RedStore_Img/images/cart.png" width="30px" height="30px"></a>
+                <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <h1>Give Your Workout <br> A New Style!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing . <br> Illum repudiandae et molestias quasi unde architecto!</p>
+                    <a href="#" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="RedStore_Img/images/image1.png" alt="img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------ featured categories ------------ -->
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3"><img src="RedStore_Img/images/category-1.jpg" alt=""></div>
+                <div class="col-3"><img src="RedStore_Img/images/category-2.jpg" alt=""></div>
+                <div class="col-3"><img src="RedStore_Img/images/category-3.jpg" alt=""></div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- ------------ featured categories ------------ -->
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-1.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-2.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-3.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <i class="ri-star-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-4.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-5.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-6.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-7.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+                <i class="ri-star-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-8.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-line"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-9.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-10.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-11.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-12.jpg">
+            <h4>Red Printed T-Shart</h4>
+            <div class="raling">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-half-fill"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+    </div>
+</div>
+
+<!-- ------------- offer ------------- -->
+<div class="offer">
+    <div class="samll-container">
+        <div class="row">
+            <div class="col-2">
+                <img src="RedStore_Img/images/exclusive.png" class="offer-img">
+            </div>
+                <div class="col-2">
+                    <p>Exculersively Available on RedStore</p>
+                    <h1>Smart Band 4</h1>
+                    <small>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem obcaecati sunt <br>libero at, aspernatur eum a sed modi saepe, labore sit esse possimus rem velit.
+                    </small><br>
+                    <a href="#" class="btn">Buy Now &#8594;</a>
+                </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- -------------------- testimonoal ---------------- -->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class="ri-double-quotes-l"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam quas eos est optio ratione, voluptatibus nobis libero quam voluptas. Dignissimos consectetur iusto repudiandae ipsum? Ab cum quis rem incidunt.</p>
+                <div class="raling">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <img src="RedStore_Img/images/user-1.png">
+                <h3>Sean Parker</h3>
+            </div>
+            <div class="col-3">
+                <i class="ri-double-quotes-l"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam quas eos est optio ratione, voluptatibus nobis libero quam voluptas. Dignissimos consectetur iusto repudiandae ipsum? Ab cum quis rem incidunt.</p>
+                <div class="raling">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <img src="RedStore_Img/images/user-2.png">
+                <h3>Emon Khan</h3>
+            </div>
+            <div class="col-3">
+                <i class="ri-double-quotes-l"></i>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro laboriosam quas eos est optio ratione, voluptatibus nobis libero quam voluptas. Dignissimos consectetur iusto repudiandae ipsum? Ab cum quis rem incidunt.</p>
+                <div class="raling">
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-fill"></i>
+                    <i class="ri-star-half-fill"></i>
+                </div>
+                <img src="RedStore_Img/images/user-3.png">
+                <h3>Sean Parker</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------ brands --------------- -->
+ <div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5"><img src="RedStore_Img/images/logo-godrej.png" alt=""></div>
+            <div class="col-5"><img src="RedStore_Img/images/logo-oppo.png" alt=""></div>
+            <div class="col-5"><img src="RedStore_Img/images/logo-paypal.png" alt=""></div>
+            <div class="col-5"><img src="RedStore_Img/images/logo-coca-cola.png" alt=""></div>
+            <div class="col-5"><img src="RedStore_Img/images/logo-philips.png" alt=""></div>
+        </div>
+    </div>
+ </div>
+
+ <!-- -------------------- footer ------------------- -->
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                <div class="app-logo">
+                    <img src="RedStore_Img/images/play-store.png" alt="">
+                    <img src="RedStore_Img/images/app-store.png" alt="">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="RedStore_Img/images/logo-white.png">
+                <h3>Download Our App</h3>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>UsefullLinks</h3>
+                <ul>
+                    <li>Copons</li>
+                    <li>Blog post</li>
+                    <li>Return Polic</li>
+                    <li>Coupons</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Faecbook</li>
+                    <li>Twitter</li>
+                    <li>YouTube</li>
+                    <li>Instagram</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 - Muhammad Rabbi</p>
+    </div>
+ </div>
+
+
+ <!-- Js toggle menu -->
+
+ <script>
+    let togglemenu = document.querySelector("#togglemenu");
+
+    togglemenu.style.maxHeight = "0px";
+
+    function menutoggle() {
+        if(togglemenu.style.maxHeight == "0px") 
+        {
+            togglemenu.style.maxHeight = "200px";
+        }
+        else 
+        {
+            togglemenu.style.maxHeight = "0px";
+        }
+    }
+ </script>
+</body>
+</html>
